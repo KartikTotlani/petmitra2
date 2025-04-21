@@ -44,10 +44,10 @@
 ## 📂 Folder Structure
 
 petmitra2/ │ 
-├── frontend/ # React frontend for users 
-├── backend/ # Node.js + Express backend 
-├── admin/ # Admin panel frontend (optional) 
-└── README.md
+            ├── frontend/ # React frontend for users 
+            ├── backend/ # Node.js + Express backend 
+            ├── admin/ # Admin panel frontend (optional) 
+            └── README.md
 
 ---
 
