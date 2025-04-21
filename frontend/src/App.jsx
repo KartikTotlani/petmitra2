@@ -12,6 +12,10 @@ import NGO from './pages/NGO';
 import MyProfile from './pages/MyProfile';
 import Appointment from './pages/Appointment';
 import Navbar from './components/Navbar';
+import Register from './pages/Register';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import BookAppointment from './pages/BookAppointment';
 
 const App = () => {
   return (
@@ -29,10 +33,18 @@ const App = () => {
         <Route path='/ai_help' element={<AI_help />} />
         <Route path='/contacts' element={<Contacts />} />
         <Route path='/ngo' element={<NGO />} />
+        <Route path='/register' element={<Register />} />
+        <Route path="/doctor/:id/book" element={
+  localStorage.getItem("token") ? <BookAppointment /> : <Navigate to={`/login?redirect=/doctor/${doctorId}/book`} />
+} />
+
+
 
       </Routes>
+      {/* ToastContainer for notifications */}
+      <ToastContainer />
     </div>
-  ) 
+  )
 }
 
 export default App
