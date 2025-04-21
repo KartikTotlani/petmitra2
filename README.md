@@ -43,7 +43,11 @@
 
 ## 📂 Folder Structure
 
-petmitra2/ │ ├── frontend/ # React frontend for users ├── backend/ # Node.js + Express backend ├── admin/ # Admin panel frontend (optional) └── README.md
+petmitra2/ │ 
+├── frontend/ # React frontend for users 
+├── backend/ # Node.js + Express backend 
+├── admin/ # Admin panel frontend (optional) 
+└── README.md
 
 ---
 
@@ -62,6 +66,11 @@ petmitra2/ │ ├── frontend/ # React frontend for users ├── backend/
 ```bash
 git clone https://github.com/KartikTotlani/petmitra2.git
 cd petmitra2
+```
+---
+
+### 📦 2. Install Dependencies
+```
 cd frontend
 npm install
 
@@ -85,5 +94,37 @@ JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
+```
+**frontend/.env**
+```
 VITE_BACKEND_URL=http://localhost:4000
+```
+**admin/.env**
+```
+VITE_BACKEND_URL=http://localhost:4000
+```
+
+### 🧪 4. Run the Project
+**Start the backend**
+```
+cd backend
+npm run dev
+```
+**Start the frontend**
+```
+cd frontend
+npm run dev
+```
+### 📸 Screenshots
+Coming soon...
+
+### 🤝 Contributors
+@KartikTotlani
+
+### 📄 License
+This project is licensed under the MIT License.
+
+### 🌟 Show Your Support
+If you found this helpful, give it a ⭐ on GitHub and share it with others!
+
+
