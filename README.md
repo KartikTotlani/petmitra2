@@ -1,8 +1,3 @@
-Sure! Here's your complete `README.md` file—**ready to copy and paste directly** into your project:
-
----
-
-```md
 # 🐾 PetMitra
 
 **PetMitra** is a full-stack web platform that connects pet owners with veterinarians and NGOs, making pet healthcare and support easily accessible and organized.
@@ -48,18 +43,11 @@ Sure! Here's your complete `README.md` file—**ready to copy and paste directly
 
 ## 📂 Folder Structure
 
-```
-petmitra2/
-│
-├── frontend/       # React frontend for users
-├── backend/        # Node.js + Express backend
-├── admin/          # Admin panel frontend (optional)
-└── README.md
-```
+petmitra2/ │ ├── frontend/ # React frontend for users ├── backend/ # Node.js + Express backend ├── admin/ # Admin panel frontend (optional) └── README.md
 
 ---
 
-## 🛠️ Setup Instructions
+## ⚙️ Setup Instructions
 
 ### ✅ Prerequisites
 
@@ -67,16 +55,13 @@ petmitra2/
 - MongoDB (local or Atlas)
 - Cloudinary account
 
+---
+
 ### 📥 1. Clone the Repo
 
 ```bash
 git clone https://github.com/KartikTotlani/petmitra2.git
 cd petmitra2
-```
-
-### 📦 2. Install Dependencies
-
-```bash
 cd frontend
 npm install
 
@@ -87,7 +72,9 @@ cd ../admin
 npm install
 ```
 
-### 🔐 3. Environment Variables
+---
+
+### 🔐 3. Configure Environment Variables
 
 Create `.env` files in each folder (`frontend/`, `backend/`, `admin/`) and add the following:
 
@@ -98,66 +85,5 @@ JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-```
 
-**frontend/.env**
-```env
 VITE_BACKEND_URL=http://localhost:4000
-```
-
-**admin/.env**
-```env
-VITE_BACKEND_URL=http://localhost:4000
-```
-
-> ⚠️ Make sure your `.gitignore` contains `.env` to prevent pushing sensitive data.
-
----
-
-### 🧪 4. Run the Application
-
-**Start the backend**
-```bash
-cd backend
-npm run dev
-```
-
-**Start the frontend**
-```bash
-cd frontend
-npm run dev
-```
-
-**Start the admin panel (optional)**
-```bash
-cd admin
-npm run dev
-```
-
----
-
-## 📸 Screenshots
-
-Coming soon...
-
----
-
-## 🤝 Contributors
-
-- [@KartikTotlani](https://github.com/KartikTotlani)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🌟 Show Your Support
-
-If you liked this project, consider giving it a ⭐ on GitHub!
-```
-
----
-
