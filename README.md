@@ -35,7 +35,7 @@
 - **Cloudinary** – Image uploads
 - **Multer** – File upload middleware
 
-### 📁 Admin Panel (Optional)
+### 📁 Admin Panel 
 
 - Separate frontend (React + Tailwind) for admin dashboard
 
